@@ -1,0 +1,29 @@
+       
+<script type="text/javascript">
+	document.addEventListener("deviceready",onDeviceReady,false);
+	function onDeviceReady(){
+		var push = PushNotification.init({ "android": {"senderID": "446897882895"}});
+		alert(push)
+		push.on('registration', function(data) {
+		console.log(data.registrationId);
+		alert(data.registrationId);
+		document.getElementById("gcm_id").innerHTML = data.registrationId;
+		 
+	 });
+
+	 push.on('notification', function(data) {
+		alert(data.title+" Message: " +data.message);
+	 });
+	 push.on('error', function(e) {
+		alert(e);
+	 });
+}
+</script>
+
+<div>
+	<form id="post-project-form">
+		Welcome to My DashBoard<br/>
+		Your Push Notification Registration ID : <br/>
+		<p id="gcm_id"></p>	
+	</form>
+</div>

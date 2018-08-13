@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_screen.png.flat",
+        "source": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\src\\main\\res\\drawable-hdpi\\screen.png"
+    },
+    {
+        "merged": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_screen.png.flat",
+        "source": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\screen.png"
+    },
+    {
+        "merged": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_icon.png.flat",
+        "source": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_screen.png.flat",
+        "source": "D:\\Mobile-Workspace\\MyApps\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\screen.png"
+    }
+]
